@@ -13,6 +13,11 @@ export default {
 					200: "#1C1C1F"
 				}
 			},
+			screens: {
+				"no-hover": {
+					raw: "(hover: none)"
+				}
+			}
 		},
 	},
 	plugins: [],
