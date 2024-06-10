@@ -2,11 +2,11 @@
 const { title, content, colSpan, rowSpan, flexDirection, imgSrc, year, link} = Astro.props;
 ---
 
-<div class={`flex flex-${flexDirection} rounded-xl overflow-hidden col-span-${colSpan} row-span-${rowSpan} bg-[#f2f2f2]`}>
-	<img class="size-full flex-1 object-cover" src={imgSrc} alt={title}>
+<div class={`flex flex-col md:flex-${flexDirection} rounded-xl overflow-hidden col-span-${colSpan} row-span-${rowSpan} bg-[#f2f2f2]`}>
+	<img class="max-h-40 md:size-full flex-1 object-cover" src={imgSrc} alt={title}>
 	<div class="p-5 flex-1 space-y-4 relative">
 		<h3 class="text-lg font-bold underline line-clamp-2"><a href={link}>{title}</a></h3>
 		<p class="line-clamp-4">{content}</p>
-		<small class="text-xs mt-[100%] absolute bottom-5">{year} Tahun lalu</small>
+		<small class="text-xs mt-[100%] md:absolute bottom-5">{year} Tahun lalu</small>
 	</div>
 </div>
