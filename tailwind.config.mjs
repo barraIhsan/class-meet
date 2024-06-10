@@ -8,10 +8,8 @@ export default {
 				sans: ["Inter", "Arial", "Helvetica", "sans-serif"],
 			},
 			colors: {
-				gray: {
-					100: "#4B4B4B",
-					200: "#1C1C1F",
-				},
+				gray: "#4B4B4B",
+				darkGray: "#1C1C1F"
 			},
 			screens: {
 				"no-hover": {
@@ -20,7 +18,8 @@ export default {
 			},
 			borderRadius: {
 				"3xl": "20px"
-			}
+			},
+			
 		},
 	},
 	plugins: [],
