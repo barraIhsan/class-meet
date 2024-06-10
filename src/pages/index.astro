@@ -27,13 +27,13 @@ import Tourism from '../components/Tourism.astro'
 			</div>
 		</section>
 		<section>
-			<h2 class="text-4xl font-extrabold">
-				<svg viewBox="0 0 43 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline size-[1em] align-[-0.1em] mr-[.07em]">
+			<h2 class="text-xl font-extrabold text-center py-6 px-10 rounded-t-3xl bg-white w-fit mx-auto relative top-px	 border-t border-l border-r border-black/15">
+				<svg viewBox="0 0 43 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline size-7 align-[-.3em] mr-[.5em]">
 					<path d="M8.0625 6.0625C8.0625 3.09785 10.4729 0.6875 13.4375 0.6875H37.625C40.5896 0.6875 43 3.09785 43 6.0625V32.9375C43 35.9021 40.5896 38.3125 37.625 38.3125H6.71875C3.00664 38.3125 0 35.3059 0 31.5938V8.75C0 7.26348 1.20098 6.0625 2.6875 6.0625C4.17402 6.0625 5.375 7.26348 5.375 8.75V31.5938C5.375 32.3328 5.97969 32.9375 6.71875 32.9375C7.45781 32.9375 8.0625 32.3328 8.0625 31.5938V6.0625ZM13.4375 8.07812V14.7969C13.4375 15.9139 14.3361 16.8125 15.4531 16.8125H24.8594C25.9764 16.8125 26.875 15.9139 26.875 14.7969V8.07812C26.875 6.96113 25.9764 6.0625 24.8594 6.0625H15.4531C14.3361 6.0625 13.4375 6.96113 13.4375 8.07812ZM30.9062 7.40625C30.9062 8.14531 31.5109 8.75 32.25 8.75H36.2812C37.0203 8.75 37.625 8.14531 37.625 7.40625C37.625 6.66719 37.0203 6.0625 36.2812 6.0625H32.25C31.5109 6.0625 30.9062 6.66719 30.9062 7.40625ZM30.9062 15.4688C30.9062 16.2078 31.5109 16.8125 32.25 16.8125H36.2812C37.0203 16.8125 37.625 16.2078 37.625 15.4688C37.625 14.7297 37.0203 14.125 36.2812 14.125H32.25C31.5109 14.125 30.9062 14.7297 30.9062 15.4688ZM13.4375 23.5312C13.4375 24.2703 14.0422 24.875 14.7812 24.875H36.2812C37.0203 24.875 37.625 24.2703 37.625 23.5312C37.625 22.7922 37.0203 22.1875 36.2812 22.1875H14.7812C14.0422 22.1875 13.4375 22.7922 13.4375 23.5312ZM13.4375 31.5938C13.4375 32.3328 14.0422 32.9375 14.7812 32.9375H36.2812C37.0203 32.9375 37.625 32.3328 37.625 31.5938C37.625 30.8547 37.0203 30.25 36.2812 30.25H14.7812C14.0422 30.25 13.4375 30.8547 13.4375 31.5938Z" fill="#1C1C1F"/>
 				</svg>
 				Berita Terbaru
 			</h2>
-			<div class="bg-white border border-black/15 rounded-3xl p-10 my-11 flex flex-col items-center gap-7">
+			<div class="bg-white border border-black/15 rounded-3xl p-10 flex flex-col items-center gap-7">
 				<div class="grid grid-rows-6 grid-cols-8 gap-4 relative max-h-[900px]">
 					{newsItems.map(news => (
 						<News title={news.title} content={news.content} flexDirection={news.flexDirection} colSpan={news.colSpan} rowSpan={news.rowSpan} imgSrc={news.imgSrc} year={news.year} link={news.link} />
