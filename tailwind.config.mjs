@@ -29,6 +29,17 @@ export default {
 		"row-span-4",
 		"flex-col",
 		"flex-row",
-		"flex-row-reverse"
+		"flex-row-reverse",
+		"w-[80%]",
+		"w-[82%]",
+		"w-[84%]",
+		"w-[86%]",
+		"w-[88%]",
+		"w-[90%]",
+		"w-[92%]",
+		"w-[94%]",
+		"w-[96%]",
+		"w-[98%]",
+		"w-[100%]",
 	]
 };
