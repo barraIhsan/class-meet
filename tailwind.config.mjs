@@ -22,6 +22,7 @@ export default {
 				"no-hover": {
 					raw: "(hover: none)",
 				},
+				xs: "480px"
 			},
 			borderRadius: {
 				"3xl": "20px",
