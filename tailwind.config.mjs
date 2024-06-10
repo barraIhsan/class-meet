@@ -10,15 +10,25 @@ export default {
 			colors: {
 				gray: {
 					100: "#4B4B4B",
-					200: "#1C1C1F"
-				}
+					200: "#1C1C1F",
+				},
 			},
 			screens: {
 				"no-hover": {
-					raw: "(hover: none)"
-				}
-			}
+					raw: "(hover: none)",
+				},
+			},
 		},
 	},
 	plugins: [],
+	safelist: [
+		"col-span-3",
+		"col-span-5",
+		"row-span-2",
+		"row-span-3",
+		"row-span-4",
+		"flex-col",
+		"flex-row",
+		"flex-row-reverse"
+	]
 };
