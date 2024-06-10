@@ -13,7 +13,10 @@ export default {
 				blue: "#31A8FF",
 				red: "#E83239",
 				green: "#85D732",
-				darkGreen: "#62A121"
+				darkGreen: "#62A121",
+				cream: "#FFEDAE",
+				brown: "#92754B",
+				darkBrown: "#7E6541"
 			},
 			screens: {
 				"no-hover": {
