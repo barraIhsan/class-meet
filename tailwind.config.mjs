@@ -18,6 +18,9 @@ export default {
 					raw: "(hover: none)",
 				},
 			},
+			borderRadius: {
+				"3xl": "20px"
+			}
 		},
 	},
 	plugins: [],
