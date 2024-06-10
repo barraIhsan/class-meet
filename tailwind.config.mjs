@@ -9,7 +9,11 @@ export default {
 			},
 			colors: {
 				gray: "#4B4B4B",
-				darkGray: "#1C1C1F"
+				darkGray: "#1C1C1F",
+				blue: "#31A8FF",
+				red: "#E83239",
+				green: "#85D732",
+				darkGreen: "#62A121"
 			},
 			screens: {
 				"no-hover": {
@@ -18,9 +22,8 @@ export default {
 			},
 			borderRadius: {
 				"3xl": "20px",
-				"4xl": "100px"
+				"4xl": "100px",
 			},
-
 		},
 	},
 	plugins: [],
@@ -44,5 +47,5 @@ export default {
 		"w-[96%]",
 		"w-[98%]",
 		"w-[100%]",
-	]
+	],
 };
