@@ -32,9 +32,9 @@ import News from '../components/News.astro'
 				Berita Terbaru
 			</h2>
 			<div class="border border-black/15 rounded-3xl p-10 my-11 flex flex-col items-center gap-7">
-				<div class="grid grid-rows-6 grid-cols-8 gap-4 relative max-h-[700px]">
+				<div class="grid grid-rows-6 grid-cols-8 gap-4 relative max-h-[900px]">
 					{newsItems.map(news => (
-						<News title={news.title} content={news.content} flexDirection={news.flexDirection} colSpan={news.colSpan} rowSpan={news.rowSpan} imgSrc={news.imgSrc} />
+						<News title={news.title} content={news.content} flexDirection={news.flexDirection} colSpan={news.colSpan} rowSpan={news.rowSpan} imgSrc={news.imgSrc} year={news.year} link={news.link} />
 					))}
 					<div class="absolute inset-0 bg-gradient-to-b from-transparent to-white from-60% pointer-events-none"></div>
 				</div>
