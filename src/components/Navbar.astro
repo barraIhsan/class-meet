@@ -1,7 +1,7 @@
-<nav class="py-3 lg:py-2 px-14 bg-white/80 backdrop-blur-lg black rounded-3xl fixed top-10 inset-x-6 sm:inset-x-16 xl:inset-x-52 shadow-[0_19px_15px_-14px] shadow-black/[.03] flex justify-between items-center border border-black/25 z-30">
+<nav class="py-3 lg:py-2 px-14 bg-white/80 dark:bg-slate-800 backdrop-blur-lg black rounded-3xl fixed top-10 inset-x-6 sm:inset-x-16 xl:inset-x-52 shadow-[0_19px_15px_-14px] shadow-black/[.03] flex justify-between items-center border border-black/25 z-30">
 	<img src="/class-meet/img/logo.png" alt="Kecamatan Setu Logo" class="w-12 object-cover">
 	<div class="hidden lg:flex gap-8 py-4">
-		<ul class="flex gap-12 font-medium text-gray">
+		<ul class="flex gap-12 font-medium text-gray dark:text-white">
 			<li><a href="#">Beranda</a></li>
 			<li><a href="#news">Berita</a></li>
 			<li><a href="#population">Populasi</a></li>
@@ -9,7 +9,7 @@
 			<li><a href="#tourism">Wisata</a></li>
 			<li><a href="#gallery">Gallery</a></li>
 		</ul>
-		<div class="w-px bg-black"></div>
+		<div class="w-px bg-darkGray dark:bg-white"></div>
 		<button class="size-6 p-px rounded-full fill-gray" id="toggleDark">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dark:block hidden">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
@@ -20,26 +20,27 @@
 		</button>
 	</div>
 	<div class="flex lg:hidden flex-col justify-center gap-1.5 cursor-pointer" id="hamburger">
-		<div class="w-8 xs:w-10 h-1 bg-darkGray duration-300"></div>
-		<div class="w-8 xs:w-10 h-1 bg-darkGray duration-300"></div>
-		<div class="w-8 xs:w-10 h-1 bg-darkGray duration-300"></div>
+		<div class="w-8 xs:w-10 h-1 bg-darkGray dark:bg-white duration-300"></div>
+		<div class="w-8 xs:w-10 h-1 bg-darkGray dark:bg-white duration-300"></div>
+		<div class="w-8 xs:w-10 h-1 bg-darkGray dark:bg-white duration-300"></div>
 	</div>
 </nav>
 
-<div class="opacity-0 invisible translate-x-full lg:hidden duration-500 ease-out fixed left-[60%] right-14 z-30 top-36 bg-white py-10 px-5 rounded-3xl" id="hamburgerList">
-	<ul class="flex flex-col gap-8 text-center text-darkGray font-semibold text-xl duration-1000">
+<div class="opacity-0 invisible translate-x-full lg:hidden duration-500 ease-out fixed left-[60%] right-14 z-30 top-36 bg-white dark:bg-slate-800 py-10 px-5 rounded-3xl" id="hamburgerList">
+	<ul class="flex flex-col gap-8 text-center text-darkGray dark:text-white font-semibold text-xl duration-1000">
 		<li><a href="#">Beranda</a></li>
 		<li><a href="#news">Berita</a></li>
 		<li><a href="#population">Populasi</a></li>
 		<li><a href="#mission">Visi & Misi</a></li>
 		<li><a href="#tourism">Wisata</a></li>
 		<li><a href="#gallery">Gallery</a></li>
-		<li>
-			<button class="size-6 p-px rounded-full fill-gray" id="toggleDarkNav">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dark:block hidden">
+		<li class="flex gap-2 justify-center items-center">
+			<p class="text-xl font-semibold">Switch Theme</p>
+			<button class="size-6 p-px rounded-full" id="toggleDarkNav">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dark:block hidden">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
 				</svg>
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dark:hidden block">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dark:hidden block">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
 				</svg>
 			</button>
