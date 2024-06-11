@@ -18,10 +18,10 @@ export default {
 				darkBrown: "#7E6541"
 			},
 			screens: {
+				xs: "480px",
 				"no-hover": {
 					raw: "(hover: none)",
 				},
-				xs: "480px"
 			},
 			borderRadius: {
 				"3xl": "20px",
