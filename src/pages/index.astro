@@ -127,14 +127,14 @@ import Tourism from '../components/Tourism.astro'
 					</div>
 				</section>
 			</div>
-			<section class="py-36 px-28" id="tourism">
+			<section class="py-36 px-6 sm:px-12 md:px-28" id="tourism">
 				<h2 class="text-xl font-extrabold w-fit mx-auto mb-11">
 					<svg viewBox="0 0 36 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline size-[1em] align-[-0.1em] mr-[.07em]">
 						<path d="M20.2219 46.8C25.0312 40.7812 36 26.1938 36 18C36 8.0625 27.9375 0 18 0C8.0625 0 0 8.0625 0 18C0 26.1938 10.9688 40.7812 15.7781 46.8C16.9312 48.2344 19.0688 48.2344 20.2219 46.8ZM18 12C19.5913 12 21.1174 12.6321 22.2426 13.7574C23.3679 14.8826 24 16.4087 24 18C24 19.5913 23.3679 21.1174 22.2426 22.2426C21.1174 23.3679 19.5913 24 18 24C16.4087 24 14.8826 23.3679 13.7574 22.2426C12.6321 21.1174 12 19.5913 12 18C12 16.4087 12.6321 14.8826 13.7574 13.7574C14.8826 12.6321 16.4087 12 18 12Z" fill="#1C1C1F"/>
 					</svg>
 					Wisata
 				</h2>
-				<div class="grid lg:grid-cols-3 2xl:grid-cols-5 gap-4">
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 gap-4">
 					{tourismItems.map(tourism => (
 						<Tourism title={tourism.title} content={tourism.content} imgSrc={tourism.imgSrc} rate={tourism.rate} link={tourism.link}/>
 					))}
