@@ -20,9 +20,9 @@
 		</button>
 	</div>
 	<div class="flex lg:hidden flex-col justify-center gap-1.5 cursor-pointer" id="hamburger">
-		<div class="w-8 xs:w-10 h-1 bg-darkGray dark:bg-white duration-300"></div>
-		<div class="w-8 xs:w-10 h-1 bg-darkGray dark:bg-white duration-300"></div>
-		<div class="w-8 xs:w-10 h-1 bg-darkGray dark:bg-white duration-300"></div>
+		<div class="w-8 xs:w-10 h-0.5 bg-darkGray dark:bg-white duration-300"></div>
+		<div class="w-8 xs:w-10 h-0.5 bg-darkGray dark:bg-white duration-300"></div>
+		<div class="w-8 xs:w-10 h-0.5 bg-darkGray dark:bg-white duration-300"></div>
 	</div>
 </nav>
 
@@ -84,10 +84,10 @@
 
 	hamburger.addEventListener("click", () => {
 		hamburgerBar[0].classList.toggle("rotate-45");
-		hamburgerBar[0].classList.toggle("translate-y-full");
+		hamburgerBar[0].classList.toggle("translate-y-[160%]");
 		hamburgerBar[1].classList.toggle("hidden");
 		hamburgerBar[2].classList.toggle("-rotate-45");
-		hamburgerBar[2].classList.toggle("-translate-y-[160%]");
+		hamburgerBar[2].classList.toggle("-translate-y-[260%]");
 
 		hamburgerList.classList.toggle("opacity-0");
 		hamburgerList.classList.toggle("invisible");
