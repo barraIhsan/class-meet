@@ -13,7 +13,7 @@ export const tourismItems = [
 	},
 	{
 		title: "Gedung Juang 45 Bekasi",
-		content: "Gedung Juang 45 Bekasi adalah sebuah bangunan bersejarah yang menjadi saksi bisu perjuangan dan perkembangan Bekasi dari masa ke masa",
+		content: "Gedung Juang 45 di Bekasi adalah bangunan bersejarah yang menyaksikan perjuangan dan perkembangan Bekasi dan Indonesia.",
 		imgSrc: "/class-meet/img/tourism3.png",
 		rate: 4.6
 	},
