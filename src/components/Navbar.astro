@@ -17,8 +17,8 @@
 	</div>
 </nav>
 
-<div class="opacity-0 invisible translate-y-full lg:hidden duration-500 ease-out fixed inset-x-16 z-30 top-36 bottom-0 bg-white py-10 px-5 rounded-t-3xl" id="hamburgerList">
-	<ul class="flex flex-col gap-10 text-center text-dark font-semibold text-2xl duration-1000">
+<div class="opacity-0 invisible translate-x-full lg:hidden duration-500 ease-out fixed left-[60%] right-14 z-30 top-36 bg-white py-10 px-5 rounded-3xl" id="hamburgerList">
+	<ul class="flex flex-col gap-8 text-center text-darkGray font-semibold text-xl duration-1000">
 		<li><a href="#">Beranda</a></li>
 		<li><a href="#news">Berita</a></li>
 		<li><a href="#population">Populasi</a></li>
@@ -28,7 +28,7 @@
 	</ul>
 </div>
 
-<div class="lg:hidden fixed inset-0 bg-black/80 pointer-events-none opacity-0 z-20 duration-300 motion-reduce:duration-0" id="hamburgerOverlay"></div>
+<div class="lg:hidden fixed inset-0 bg-black/80 backdrop-blur-sm pointer-events-none opacity-0 z-20 duration-300 motion-reduce:duration-0" id="hamburgerOverlay"></div>
 
 <script>
 	// Hamburger
@@ -46,7 +46,7 @@
 
 		hamburgerList.classList.toggle("opacity-0");
 		hamburgerList.classList.toggle("invisible");
-		hamburgerList.classList.toggle("translate-y-full");
+		hamburgerList.classList.toggle("translate-x-full");
 
 		hamburgerOverlay.classList.toggle("opacity-0");
 		hamburgerOverlay.classList.toggle("pointer-events-none");
