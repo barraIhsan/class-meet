@@ -28,11 +28,8 @@ export default {
 	},
 	plugins: [],
 	safelist: [
-		"col-span-3",
-		"col-span-5",
 		"row-span-2",
 		"row-span-3",
-		"row-span-4",
 		"flex-col",
 		"flex-row",
 		"md:flex-row-reverse",
