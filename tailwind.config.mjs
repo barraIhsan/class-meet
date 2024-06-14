@@ -32,7 +32,7 @@ export default {
 		"row-span-3",
 		"flex-col",
 		"flex-row",
-		"md:flex-row-reverse",
+		"lg:flex-row-reverse",
 		"w-[80%]",
 		"w-[82%]",
 		"w-[84%]",
